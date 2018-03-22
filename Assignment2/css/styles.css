@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Abel', sans-serif;
+}
+	
+#main-title {
+	font-family: 'Russo One', sans-serif;
+	font-size: 1.75em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#section1, #section2, #section3 {
+	padding: 15px;
+	position: relative;
+	border: 1px solid gray;
+	
+
+}
+
+/* .section-header {
+	float: right;
+	background-color: gray;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-bottom: 20px;
+}
+*/
+#title-section1, #title-section2, #title-section3 {
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: white;
+	font-family: 'Shrikhand', cursive; 
+	width: 40%;
+	text-align: center;
+	margin-top: 0;
+
+}
+
+#title-section1 {
+	background-color: #0EB1D2;
+}
+
+#title-section2 {
+	background-color: #BC412B;
+}
+
+#title-section3 {
+
+	background-color: #5C415D;
+}
+
+p {
+	clear: both;
+	margin-top: 40px;
+}
+
+/* **************** Styles for Desktop Computer ********************/
+ @media (min-width: 992px) {
+
+ 	#section1, #section2, #section3 {
+ 		width: 33%;
+ 		float: left;
+ 	}
+
+ }
+
+ /* ***************Styles for Tablets **************************/
+ @media (min-width: 768px) and (max-width: 991px) {
+
+ 	#section1, #section2 {
+ 		width: 50%;
+ 		float: left;
+ 	}
+ 	#section3 {
+ 		clear: left;
+ 		width: 100%;
+ 	}
+ }
+
+ /* **************Styles for Mobile Phones **********************/
+ @media (max-width: 767px) {
+
+ 	#section1, #section2, #section3 {
+ 		width: 100%;
+ 		float: left;
+ 	}
+
+ }
