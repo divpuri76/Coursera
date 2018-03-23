@@ -104,9 +104,10 @@ p {
  		margin: 1%;
  	}
  	#section3 {
- 		clear: left;
+ 		clear: both;
  		width: 98%;
  		margin: 1%;
+
  	}
  }
 
