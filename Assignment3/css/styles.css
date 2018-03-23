@@ -1,0 +1,25 @@
+#header-nav {
+	
+	border: 1px solid black;
+	color: white;
+}
+
+.main-content {
+	background-color: #D6DBD2;
+	width: 80%;
+	margin: 30px 10% 30px 10%;
+}
+
+.title {
+
+	margin-bottom: 30px;
+}
+
+span.icon-bar {
+	color: gray;
+}
+#nav-list li {
+	border: 1px solid black;
+	font-weight: bold;
+	background-color: #BBC7A4;
+}
